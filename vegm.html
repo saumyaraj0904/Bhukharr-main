@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="vegm.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JavaScript and Popper.js (required for dropdowns) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <title>Restaurant Menu</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">𝕭𝖍𝖚𝖐𝖍𝖆𝖗𝖗</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="html1.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              List
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="cart.html">Go to cart</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    <div class="menu">
+      <h2 class="menu-group-heading">STARTERS</h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img src="sev-puri-1.jpg" alt="Sev Puri Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Sev Puri</span>
+              <span class="menu-item-price">Rs. 50.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Sev puri recipe is a canape like snack – where crispy fried flour discs are topped with flavorful
+              condiments, veggies, herbs, ground spices and more. Spicy, sweet, tangy, savory, salty, crunchy flavors –
+              all bursting in your mouth in each bite.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="paneer-pakora-1.jpg" alt="Paneer Pakoda Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Paneer Pakoda</span>
+              <span class="menu-item-price">Rs. 90.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              'Pakora' or 'pakoda' is the Hindi term for fried fritters. In Indian cooking, the flour that we always
+              include to make fritters is gram flour.
+              Skinned small black chickpeas are ground finely or coarsely to make gram flour also known as besan.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="samosa-chaat-2.jpg" alt="Samosa Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Samosa Chat</span>
+              <span class="menu-item-price">Rs. 70.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Samosa chaat recipe with step by step photos – lip smacking chaat recipe made with samosas, chana masala,
+              various chutneys and spices. This is one of the popular chaat snack recipe from North India and makes for
+              a filling snack.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="dahi_kabab.jpeg" alt="Dahi Kabab" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Dahi Kabab</span>
+              <span class="menu-item-price">Rs. 60.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Make this traditional vegetarian Dahi ke kabab that is perfectly crisp on the outside and soft on the
+              inside. This tangy, savory and delicious snack is great for sharing and is made with Curd or yogurt, gram
+              flour, onions, ginger, chilies, coriander leaves and seasonings.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <h2 class="menu-group-heading">MAIN COURSE</h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img src="matar_paneer.jpeg" alt="Matar paneer" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Mutter Paneer</span>
+              <span class="menu-item-price">Rs. 250.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Matar paneer recipe is a popular Indian Curry dish made with green peas and Paneer (Indian cottage cheese)
+              in a base of onions, tomatoes, cashews, spices and herbs. The recipe hails from the versatile Northern
+              Indian cuisine that has many different (and delicious) variations.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="matar_mashroom.jpeg" alt="Matar Mashroom" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Mutter Mushroom</span>
+              <span class="menu-item-price">Rs. 280.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Matar mushroom recipe with step by step photos. This is a semi-dry delicious vegetable dish made with
+              green peas, mushrooms, onions, tomatoes, herbs and spices. It makes for a delicious and healthy meal when
+              served with a side of chapati or naan. Vegan and gluten-free.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="paneer_biryani.jpeg" alt="Paneer biryani" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Paneer Biryani</span>
+              <span class="menu-item-price">Rs. 230.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Paneer biryani is a mildly spiced and delicately flavored dum cooked, traditional biryani recipe. Simply
+              moreish and flavorful paneer biryani that pairs beautifully with any raita. A dum cooked biryani takes
+              time to make but the results are always awesome.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="paneer_butter.jpeg" alt="Paneer Butter Masala" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Paneer Butter Masala</span>
+              <span class="menu-item-price">Rs. 260.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Paneer Butter Masala is one of India’s most popular paneer gravy recipes, and with good reason! Indian
+              cottage cheese cubes are smothered in a creamy, lightly spiced tomato sauce that is downright delicious.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="rest.html" id="back1">Back</a>
+    <a href="cart.html" id="cart1">Go To Cart</a>
+  </main>
+  <script src="src/app.js"></script>
+  <script>function myFunction() {
+      alert("Added to Cart successfully!!!");
+    }</script>
+</body>
+
+</html>

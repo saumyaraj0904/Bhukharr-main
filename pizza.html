@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="stylesheet" href="vegm.css" />
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JavaScript and Popper.js (required for dropdowns) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <title>Restaurant Menu</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">𝕭𝖍𝖚𝖐𝖍𝖆𝖗𝖗</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="html1.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                List
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cart.html">Go to cart</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="menu">
+        <h2 class="menu-group-heading">REGULAR PIZZAS</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="golden_corn.jpeg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Golden Corn</span>
+                <span class="menu-item-price">Rs. 89.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Imagine a pizza perfectly baked with fresh dough and topped with crunchy sweet corn and tangy sauce, along with melting cheese – quite irresistible right? Yes, and that’s the famous sweet corn pizza from Domino’s. A healthy pizza prepared with the goodness of sweet corn and cheese to give you that perfect satisfaction so order the Golden Corn Pizza from Domino’s and you will fall in love with it.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="sausage_pizza.jpeg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Sausage</span>
+                <span class="menu-item-price">Rs. 109.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Sausage Pizza is a unique delicacy with a tangy mix of a variety of ingredients. This Italian cuisine is added with finely sliced chicken sausages, grated mozzarella cheese and pizza sauce. With the added goodness of vegetables like mushrooms, capsicum and onion, this recipe is surely going to be a delight for your taste buds.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="barbecue.jpeg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Pepper Barbecue Chicken</span>
+                <span class="menu-item-price">Rs. 99.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Gone are the days when people would popularly order the basic Margherita pizza with lots and lots of cheese. In today’s times, people have become more experimenting and newer fan favorites are emerging every day. The same is true for Dominos pepper barbecue chicken pizza which is now much in demand by people of all ages.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="peppy.jpeg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Peppy Paneer</span>
+                <span class="menu-item-price">Rs. 119.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                If you like your pizza spicy then this one’s just for you. Cottage cheese chunks spiked with chillies is laid out on a Ragi base with a tangy tomato sauce, olives, peppers and a gooey combination of mozzarella and cheddar cheese. Hot and savoury flavours in every bite!
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">MEDIUM PIZZAS</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="capsicum.jpeg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Paneer & Capsicum</span>
+                <span class="menu-item-price">Rs. 279.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Soft chunky paneer with crisp capsicum and fresh Tomatoes – a flavourful combination that will leave you wanting more! With Kim-Sa’s special tomato sauce our pizzas are made all the more special.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="tandoori.jpeg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Indi Tandoori Paneer</span>
+                <span class="menu-item-price">Rs. 239.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="Farmhouse.jpg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Farmhouse</span>
+                <span class="menu-item-price">Rs. 249.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                The farmhouse pizza price is pretty reasonable, considering the amount of toppings and quality of materials used to bake this perfectly scrumptious pizza. The Domino’s mobile app is super easy to use, so you won’t ever encounter a problem while placing an online order.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="veggie.jpg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Veggie Paradise</span>
+                <span class="menu-item-price">Rs. 249.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Primarily for vegetarians, there seem to be two popular options and choices when it comes to food – vegetable-filled or paneer-related. You could also say the same for pizzas. The Dominos veggie paradise pizza gives you exactly what you need and will leave your mouth watering.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">LARGE PIZZAS</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="LoadedC.jpg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Non Veg Loaded</span>
+                <span class="menu-item-price">Rs. 549.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                You can also look for outlets that offer takeaway for non veg loaded pizza near you. If you’re starving, you might want to pair your pizza order with stuffed garlic bread, taco Mexicana veg, or any other pizza of your choice. A cold beverage will also be a great addition to the order.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="dominator.png"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Dominator</span>
+                <span class="menu-item-price">Rs. 599.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                We all know we cannot have our tiffin alone! Whether it is colleagues at work or friends in college, sharing is more fun and Domino’s has made the perfect sized pizza to ensure you have more fun. The Medium Chicken Dominator is a fun-sized pizza that makes meals more interesting. If you want to add the goodness of cheese to your pie, you can go for the cheese burst base.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="spiced_doubled.jpg"
+              alt="pizza"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Spiced Double Chicken</span>
+                <span class="menu-item-price">Rs. 749.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Delightful combination of our spicy duo- Pepper Barbecue Chicken and Peri Peri Chicken for Chicken Lovers. Choice of Crust. New Hand Tossed.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="Margherita.jpg"
+              alt="Paneer Butter Masala"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Margherita</span>
+                <span class="menu-item-price">Rs. 649.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                If you buy Margherita pizza every time you go to Domino’s, have you thought of switching it up? You can try various combinations to make your meal more interesting. If you are a fan of non veg pizzas and like Margherita pizza, you can choose to put add-ons and make your pizza better.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="rest.html" id="back1">Back</a>
+	  <a href="cart.html" id="cart1">Go To Cart</a>
+    </main>
+    <script src="src/app.js"></script>
+    <script>
+      function myFunction() {
+    alert("Added to Cart successfully!!!");
+  }
+  
+      </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(181, 190, 187);;
+}
+/* Style the form container */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #f3ecec;
+    border-radius: 5px;
+  }
+  
+  /* Style the tab group */
+  .tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tab-group .tab {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .tab-group .tab.active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .tab-group .tab a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Style the tab content */
+  .tab-content {
+    padding: 20px;
+  }
+  
+  .tab-content h1 {
+    font-size: 24px;
+  }
+  
+  
+  .field-wrap {
+    margin: 15px 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #030000;
+    border-radius: 3px;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .button:hover {
+    background: #1e87d8;
+  }
+  
+  /* Style the "Forgot Password?" link */
+  .forgot {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .forgot a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  .forgot a:hover {
+    color: #1e87d8;
+  }
+  

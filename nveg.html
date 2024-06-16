@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="stylesheet" href="nveg.css" />
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JavaScript and Popper.js (required for dropdowns) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <title>Restaurant Menu</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">𝕭𝖍𝖚𝖐𝖍𝖆𝖗𝖗</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="html1.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                List
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cart.html">Go to cart</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="menu">
+        <h2 class="menu-group-heading">Non-veg Starter</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="chickenspringrolls.jpg"
+              alt="chickenspringrolls"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chickenspringrolls</span>
+                <span class="menu-item-price">Rs. 150.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Fully cooked spring rolls filled with chicken and vegetables can make your guests relish them. They can also be tried with chili sauce which can give a great flavour amongst the other party dishes. </p>
+                <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+              </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="fishchickenpakora.jpg"
+              alt="Fish Chicken pakora Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Fish Chicken Pakora</span>
+                <span class="menu-item-price">Rs. 180.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Most people are fish lovers, and having fish pakora at the party can also convince a hesitant guest to taste something new, and a deep-fried crunchy pakora dipped with chutney can be zesty. </p>
+                <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+              </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="chilliprawns.jpg"
+              alt="chilli Prawns Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chilli Prawns</span>
+                <span class="menu-item-price">Rs. 150.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                This remains an all-time favourite starter for seafood lovers. This is a versatile item that can be cooked in various ways and is also known as a hero ingredient in regional cuisines, especially South Indians.</p>
+                <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+              </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="chickenmanchurian.jpg"
+              alt="Chicken Manchurian Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Manchurian</span>
+                <span class="menu-item-price">Rs. 200.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                A variety of non-veg soups can be included in the cuisine to give it a great feel. It includes chicken man-chow soup for spicy food lovers, which can get fiery topped with crispy fried noodles. 
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">Non-veg Main Course</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="chickenbiryani.jpeg"
+              alt="Chicken Biryani Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Biryani</span>
+                <span class="menu-item-price">Rs. 160.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Biryani is a mixed rice dish originating among the Muslims of South Asia. It is made with rice, some type of meat and spices
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="butterchicken.jpeg"
+              alt="Butter Chicken Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Butter Chicken</span>
+                <span class="menu-item-price">Rs. 180.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Butter chicken, traditionally known as murgh makhani, is an Indian dish originating in Delhi.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="chickentikkamasala.jpeg"
+              alt="Chicken Tikka Masala Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Tikka Masala</span>
+                <span class="menu-item-price">Rs. 200.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Chicken tikka masala is a dish consisting of roasted marinated chicken chunks in a spiced sauce.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="chickencurry.jpeg"
+              alt="Chicken Curry Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Curry</span>
+                <span class="menu-item-price">Rs. 190.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Chicken curry is a South Asian dish originating from India. It is common in the Indian subcontinent, Arabian Peninsula, Southeast Asia, Great Britain, Caribbean, and Japan.
+              </p>
+              <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="rest.html" id="back1">Back</a>
+	  <a href="cart.html" id="cart1">Go To Cart</a>
+      </main>
+    <script src="src/app.js"></script>
+    <script>
+      function myFunction() {
+    alert("Added to Cart successfully!!!");
+  }
+  </script>
+  </body>
+</html>

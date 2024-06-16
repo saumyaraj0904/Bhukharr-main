@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="bir.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JavaScript and Popper.js (required for dropdowns) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <title>Restaurant Menu</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">𝕭𝖍𝖚𝖐𝖍𝖆𝖗𝖗</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="html1.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             List
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="cart.html">Go to cart</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    <div class="menu">
+      <h2 class="menu-group-heading">Veg Biriyani</h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img src="hyd.jpg" alt="Sev Puri Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Hyderabadi biryani</span>
+              <span class="menu-item-price">Rs. 350.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Biryani originating from Hyderabad, India made with basmati rice and meat. Originating in the kitchens of
+              the Nizam of Hyderabad, it combines elements of Hyderabadi and Mughlai cuisines.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="luc.webp" alt="Paneer Pakoda Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Lucknowi biryani</span>
+              <span class="menu-item-price">Rs. 290.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Aromatic, light, mild and a subtle flavored Awadhi dum biryani made with mix vegetables.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="al.jpeg" alt="Samosa Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Almond Biryani</span>
+              <span class="menu-item-price">Rs. 470.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              An innovative rice preparation rich with the aroma of spices, the Almond Biryani combines French beans and
+              green peas with sliced almonds
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="kol.webp" alt="Dahi Kabab" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Kolkata biryani</span>
+              <span class="menu-item-price">Rs. 260.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              A light and flavourful version of Kolkata biryani made with mix vegetables, basmati rice, aromatics and
+              ghee. Makes for a delicious, filling and comforting meal paired with raita or yogurt.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <h2 class="menu-group-heading">Non Veg</h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img src="chyd.jpeg" alt="Sev Puri Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Chicken Hyderabadi biryani</span>
+              <span class="menu-item-price">Rs. 350.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              This is a kacchi hyderabadi biryani, meaning partially cooked rice is layered over the marinated raw meat.
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="ckol.webp" alt="Paneer Pakoda Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Chicken Kolkata biryani </span>
+              <span class="menu-item-price">Rs. 90.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Biryani is one of the most loved cuisines of India. The Kolkata chicken biryani makes for a fantastic
+              addition to the list
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="cluk.jpeg" alt="Samosa Image" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Chicken Lucknowi biryani</span>
+              <span class="menu-item-price">Rs. 70.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              Lucknowi Biryani is authentically known to be a more floral scented Biryani. It is lighter on the Masala
+              powders and incorporates Meeta attar/Itr, saffron
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="cmd.webp" alt="Dahi Kabab" class="menu-item-img" />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Murgh Dum Biryani </span>
+              <span class="menu-item-price">Rs. 60.00</span>
+            </h3>
+            <p class="menu-item-desc">
+              It is a kachchi biryani in that raw chicken is layered with rice and cooked together in dum, as opposed to
+              a pakki biryani
+            </p>
+            <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <a href="rest.html" id="back1">Back</a>
+    <a href="cart.html" id="cart1">Go To Cart</a>
+  </main>
+  <script src="src/app.js"></script>
+  <script>
+    function myFunction() {
+      alert("Added to Cart successfully!!!");
+    }
+  </script>
+</body>
+
+</html>

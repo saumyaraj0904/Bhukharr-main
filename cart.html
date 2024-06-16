@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background1.jpg');
+        }
+
+        .cart {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .cart-item img {
+            max-width: 80px;
+            max-height: 80px;
+            margin-right: 10px;
+        }
+
+        .cart-item-info {
+            flex-grow: 1;
+        }
+
+        .cart-item-title {
+            font-weight: bold;
+        }
+
+        .cart-item-price {
+            color: #333;
+        }
+
+        .cart-total {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <h2>Food Cart</h2>
+        <div class="cart-item">
+            <img src="biriyani.jpg" alt="Product 1">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Panner Biriyani</div>
+                <div class="cart-item-price">Rs.100</div>
+            </div>
+            <div class="cart-item-actions">
+            Quantity<input type="number" id="num" value="1">    
+            </div>
+        </div>
+		
+		
+        <div class="cart-item">
+            <img src="pizza1.jpg" alt="Product 2">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Panner Pizza</div>
+                <div class="cart-item-price">Rs.250</div>
+            </div>
+            <div class="cart-item-actions">
+                Quantity<input type="number" id="num" value="1">
+            </div>
+        </div>
+		
+		<div class="cart-item">
+            <img src="coke.jpg" alt="Product 3">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Coke</div>
+                <div class="cart-item-price">Rs.50</div>
+            </div>
+            <div class="cart-item-actions">
+				Quantity<input type="number" id="num" value="1">
+            </div>
+        </div>
+		
+		<div class="cart-item">
+            <img src="pasta2.jpg" alt="Product 4">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Pasta</div>
+                <div class="cart-item-price">Rs.200</div>
+            </div>
+            <div class="cart-item-actions">
+				Quantity<input type="number" id="num" value="1">
+            </div>
+        </div>
+		
+		<div class="cart-item">
+            <img src="vanilla.jpg" alt="Product 5">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Vanilla Milkshake</div>
+                <div class="cart-item-price">Rs.100</div>
+            </div>
+            <div class="cart-item-actions">
+				Quantity<input type="number" id="num" value="1">
+            </div>
+        </div>
+		
+		<div class="cart-item">
+            <img src="palak.jpg" alt="Product 6">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Palak Panner</div>
+                <div class="cart-item-price">Rs.100</div>
+            </div>
+            <div class="cart-item-actions">
+				Quantity<input type="number" id="num" value="1">
+            </div>
+        </div>
+		
+		<div class="cart-item">
+            <img src="roti.jpg" alt="Product 7">
+            <div class="cart-item-info">
+                <div class="cart-item-title">Roti</div>
+                <div class="cart-item-price">Rs.100</div>
+            </div>
+            <div class="cart-item-actions">
+				Quantity<input type="number" id="num" value="5">
+            </div>
+        </div>
+		
+        <div class="cart-total">
+            Total: Rs.800<br>
+			
+        </div>
+		
+    </div>
+	<div class="cart">
+	<a href="razorpay.html">Procced to Payment</a>
+		</div>
+</body>
+</html>

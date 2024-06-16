@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="stylesheet" href="vegm.css" />
+    <title>Restaurant Menu</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="menu">
+        <h2 class="menu-group-heading">Veg Rolls</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="vegroll1.jpeg"
+              alt="vegroll Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Crispy Mushroom Aloo Roll</span>
+                <span class="menu-item-price">Rs. 120.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Mushrooms are known worldwide to be low in calories and high in nutritional value. Considering this, here we bring you a recipe to indulge in the goodness of mushrooms; try making this mushroom aloo roll this weekend.
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="vegroll2.jpeg"
+              alt="vegroll Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Poh Pia Je Rolls</span>
+                <span class="menu-item-price">Rs. 150.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                 this crispy roll recipe makes for a delicious evening snack. Pair it up with schezwan or any of your favourite dip and relish! This roll recipe is famous in Southeast Asia.
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="vegroll3.jpeg"
+              alt="vegroll Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chatpati Chaap Roll</span>
+                <span class="menu-item-price">Rs. 170.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                If you want to enjoy the flavour of tandoor, this recipe will perfectly fit the for you Soya chunks are marinated in tangy and fiery spices and further grilled until tender.
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="vegroll4.jpeg"
+              alt="vegroll Image"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Sooji Spring Rolls</span>
+                <span class="menu-item-price">Rs. 200.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Looking for a recipe that has both health and taste quotients? Fret not, we have got you covered. Made with healthy and nutritious semolina (sooji) and filled with crunchy veggies, this roll is sure to tug at your heartstrings. Click here for the complete recipe.
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">Non-Veg Rolls</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="nonroll1.jpeg"
+              alt="Non veg roll"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Chicken Roll</span>
+                <span class="menu-item-price">Rs. 150.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                This chicken Kathi roll is a simple and quick recipe that you can make at home for brunch or a filling evening meal with a cup of tea. Enjoy with a side of cool mint chutney!
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="nonroll2.jpeg"
+              alt="Non veg roll"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name"> Mutton Roll</span>
+                <span class="menu-item-price">Rs. 190.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                In this recipe, all you have to do is marinate and cook the mutton pieces. Then, to eat, wrap it with vegetables and masalas. Serve with a spicy chutney and a dip when serving this dish.
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="nonroll3.jpeg"
+              alt="Non veg roll"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Fish Roll</span>
+                <span class="menu-item-price">Rs. 200.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                A fish roll may sound slightly offbeat, but this recipe is all about indulgence. Here, the fish is first marinated and cooked. Then it is wrapped in a crispy paratha with hot sauces to add an extra zing!
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="prawns.webp"
+              alt="Non veg roll"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Prawn Tempura Roll</span>
+                <span class="menu-item-price">Rs. 220.00</span>
+              </h3>
+              <p class="menu-item-desc">
+                Raw shrimps are dipped in tempura batter and deep-fried in hot oil to make prawn tempura. The batter for making tempura is made up of flour, water, and corn starch. This dish makes an exotic recipe when you want to try something new and indulge in a different taste!
+              </p>
+			  <input type="button" id="add_to_cart" value="Add to Cart" onclick="myFunction()">
+            </div>
+          </div>
+        </div>
+      </div>
+	  <a href="#" id="back">Back</a>
+	  <a href="cart.html" id="cart">Go To Cart</a>
+    </main>
+    <script src="src/app.js">
+		</script>
+		<script>
+		function myFunction() {
+  alert("Added to Cart successfully!!!");
+}
+
+		</script>
+		
+  </body>
+</html>
